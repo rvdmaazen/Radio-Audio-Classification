@@ -128,4 +128,4 @@ The standard threshold of 0.5 is chosen to assess how well the model performs, t
 ![](images/precision_recall_curve.png)
 
 Overall, it seems that the model is performing quite well given the 96.23% accuracy on the balanced dataset.
-A more detailed overview of the model's performance (including samples which it gets wrong) can be found in `predict.ipynb` ([Jupyter Notebook Viewer](https://nbviewer.jupyter.org/github/rvdmaazen/Radio-Audio-Classification/blob/master/predict.ipynb) can be used to view the notebook and listed to the audio).
+A more detailed overview of the model's performance (including samples which it gets wrong) can be found in `predict.ipynb` ([Jupyter Notebook Viewer](https://nbviewer.jupyter.org/github/rvdmaazen/Radio-Audio-Classification/blob/master/predict.ipynb) can be used to view the notebook and listen to the audio).
