@@ -23,7 +23,7 @@ class ConvNet(nn.Module):
         self.conv9 = nn.Conv2d(2**(self.base+3), 2**(self.base+4), kernel_size=3, padding=1)
         self.conv10 = nn.Conv2d(2**(self.base+4), 2**(self.base+4), kernel_size=3, padding=1)
 
-        self.pool = nn.AdaptiveMaxPool2d(kernel_size=2)
+        self.pool = nn.Maxpool2d(kernel_size=2)
 
         self.linear1 = nn.Linear(2048, 1024)
         self.linear2 = nn.Linear(1024, 512)
